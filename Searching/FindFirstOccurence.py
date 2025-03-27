@@ -20,8 +20,12 @@ def FirstOccurence(arr,key):
 arr=[1,2,3,4,5]
 key=2
 result=FirstOccurence(arr,key)
-print("Key found!") if result!=-1 else print("Key is not present!!!")
+print(f"Key found at {result}!") if result!=-1 else print("Key is not present!!!")
 arr1=[1,2,3,4,50,55,60]
 key1=55
 result=FirstOccurence(arr1,key1)
-print("Key found!") if result!=-1 else print("Key is not present!!!")
+print(f"Key found at {result}!") if result!=-1 else print("Key is not present!!!")
+arr1=[1,2,3,3,4,4,4,50,55,55,55,60]
+key1=55
+result=FirstOccurence(arr1,key1)
+print(f"Key found at {result}!") if result!=-1 else print("Key is not present!!!")
